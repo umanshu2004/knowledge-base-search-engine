@@ -1,11 +1,11 @@
 # knowledge-base-search-engine
 This project is a powerful search engine that uses a Large Language Model (LLM) to answer questions based on a collection of documents you provide. It leverages Retrieval-Augmented Generation (RAG) to find the most relevant information in your documents and then uses that information to generate a concise, synthesized answer to your query.
 
-Objective
+**Objective**
 
 The main goal of this project is to provide a way to search across multiple text and PDF documents and receive synthesized, context-aware answers. Instead of just pointing to relevant documents, the system directly answers the user's questions based on the content of those documents.
 
-How It Works
+**How It Works**
 
 Document Ingestion: You can upload your text or PDF documents through the web interface.
 
@@ -17,11 +17,11 @@ Retrieval: The system converts your question into an embedding and compares it t
 
 Answer Synthesis: The relevant text chunks are passed to an LLM along with your original question. The LLM then generates a human-like, synthesized answer based on the provided context.
 
-Technical Stack
-
+**Technical Stack
+**
 Backend: Python with Flask (a lightweight web framework)
 
-Core Logic:
+**Core Logic:**
 
 langchain: A framework for developing applications powered by language models.
 
@@ -33,7 +33,7 @@ PyMuPDF: For extracting text from PDF documents.
 
 Frontend: A simple, clean interface built with HTML, styled with Tailwind CSS, and powered by vanilla JavaScript for interactivity.
 
-Getting Started
+**Getting Started**
 
 Prerequisites
 
@@ -41,7 +41,7 @@ Python 3.8 or higher
 
 pip (Python package installer)
 
-Installation
+**Installation**
 
 Clone the repository:
 
